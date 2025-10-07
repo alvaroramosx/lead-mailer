@@ -1,41 +1,202 @@
 default:
-  subject: "Consulta para {Nombre}"
+  subject: "Posible colaboración con vuestro negocio"
   body: |
-    Hola {Nombre},
+    Buenos días,
 
-    He estado revisando {Web} y me gustaría compartir una breve propuesta
-    para ayudar a {Nombre} a captar más clientes en el sector {Sector}.
+    Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo viendo cómo en muchos negocios el día se va entre llamadas, correos y tareas que roban más tiempo del que deberían.
 
-    ¿Te parece si coordinamos una llamada esta semana?
+    Básicamente me dedico a desarrollar compañeros de trabajo digitales que ayudan a que todo fluya mejor, por ejemplo:
 
-    Un saludo,
-    Equipo Lead Mailer
+    ✅ Un asistente que atiende llamadas o mensajes cuando el equipo está ocupado o fuera de horario, manteniendo la atención sin depender siempre de una persona. 
+
+    ✅ Una ayuda que se encarga de recordatorios, citas o tareas repetitivas, para que el equipo pueda centrarse en lo que realmente importa. 
+
+    ✅ Una herramienta que organiza información interna y evita perder tiempo buscando correos, documentos o datos que deberían estar a mano. 
+
+    La idea es aliviar la carga diaria y mejorar la organización sin cambiar la forma de trabajar ni meter más presión al equipo.
+
+    Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales y ver si algo de esto podría adaptarse a vuestro funcionamiento.
+
+    Gracias por vuestro tiempo,
+
 
 sectors:
+  Gestorías:
+  subject: "Posible colaboración con la gestoría"
+  body: |
+    Buenos días,
+
+    Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas gestorías el día se va entre correos de clientes, documentos del IVA y plazos que cambian de un momento a otro.
+
+    Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en la gestoría, por ejemplo: 
+
+    ✅ Un sistema que prepara presupuestos o propuestas de servicio automáticamente con IA, teniendo en cuenta tipo de cliente, volumen de facturación o complejidad fiscal. 
+
+    ✅ Un compañero artificial inteligente que sepa gestionar correos o mensajes de clientes y responder dudas básicas (fechas de presentación, documentación pendiente, etc.) cuando el equipo está ocupado. 
+
+    ✅ Un RAG, una especie de compañero digital que permite acceder al instante a información de clientes, modelos, impuestos o documentación sin tener que buscar entre carpetas o correos. 
+
+    La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más la dinámica de la gestoría.
+    
+    Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras gestorías y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+
+    Gracias por vuestro tiempo,
+
+  Constructoras:
+  subject: "Posible colaboración con la constructora"
+  body: |
+    Buenos días,
+
+    Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas constructoras el día se va entre llamadas de obra, presupuestos, proveedores y planos que nunca están donde uno espera.
+
+    Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en la empresa, por ejemplo:
+
+    ✅ Un sistema que genera presupuestos de obra automáticamente con IA, teniendo en cuenta materiales, tiempos de ejecución, desplazamientos o mano de obra. 
+
+    ✅ Un compañero artificial inteligente que gestiona correos y mensajes con clientes o proveedores, manteniendo actualizada la información de cada proyecto. 
+
+    ✅ Un RAG, una especie de compañero digital que permite acceder al instante a planos, certificaciones o fichas de materiales sin perder tiempo buscando entre documentos. 
+
+    La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más la dinámica de la obra.
+    
+    Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras constructoras y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+
+    Gracias por vuestro tiempo,
+
+  Hoteles:
+    subject: "Posible colaboración con el hotel"
+    body: |
+      Buenos días,
+
+      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Hoy hablé con una compañera vuestra y me indicó que podía enviaros este correo para que lo revisaras.
+
+      Básicamente me dedico a desarrollar compañeros de trabajo para vosotros tanto en el hotel como en el restaurante, por ejemplo:
+
+      ✅ Una persona REAL con IA que contesta por voz o por WhatsApp que responde dudas cuando el equipo está ocupado o fuera de turno.
+
+      ✅ Un compañero que sepa coger reservas en el restaurante sin que nadie tenga que parar su trabajo.
+
+      ✅ Un panel interno donde el equipo puede consultar de forma rápida cualquier dato sin buscar en emails o carpetas.
+
+      La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más a recepción.
+
+      Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+
+      Gracias por vuestro tiempo,
+
+  
   Restaurantes:
-    subject: "Mejora de visibilidad online para {Nombre}"
+    subject: "Posible colaboración con el restaurante"
     body: |
-      Hola {Nombre},
+      Buenos días,
 
-      Hemos ayudado a restaurantes de {Ubicacion} a incrementar reservas
-      con optimización de ficha y campañas locales.
+      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Hoy hablé con una compañera vuestra y me indicó que podía enviaros este correo para que lo revisaras.
 
-      ¿Te parece si te enseño algunos resultados y vemos si encaja para {Nombre}?
+      Básicamente me dedico a desarrollar compañeros de trabajo para vosotros tanto en el hotel como en el restaurante, por ejemplo:
 
-      Un saludo,
-      Equipo Lead Mailer
+      ✅ Una persona REAL con IA que contesta por voz o por WhatsApp que responde dudas cuando el equipo está ocupado o fuera de turno.
 
-  Tecnologia:
-    subject: "Ideas para acelerar leads en {Nombre}"
+      ✅ Un compañero que sepa coger reservas en el restaurante sin que nadie tenga que parar su trabajo.
+
+      ✅ Un panel interno donde el equipo puede consultar de forma rápida cualquier dato sin buscar en emails o carpetas.
+
+      La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más a recepción.
+
+      Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+
+      Gracias por vuestro tiempo,
+
+  Abogados:
+    subject: "Posible colaboración con el buffet"
     body: |
-      Hola {Nombre},
+      Buenos días,
 
-      Tenemos experiencia en funnels B2B para empresas de tecnología.
-      Podríamos revisar {Web} y proponerte quick-wins.
+      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchos despachos el día se va entre llamadas, correos y documentos que cuesta encontrar justo cuando más se necesitan.
 
-      Si te interesa, coordinemos una breve llamada.
+      Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en el despacho, por ejemplo: 
 
-      Gracias,
-      Equipo Lead Mailer
+      ✅ Un sistema que genera presupuestos o propuestas de honorarios automáticamente con IA, teniendo en cuenta factores como la distancia del caso, la experiencia del abogado o los gastos estimados. 
+
+      ✅ Un compañero artificial inteligente que sepa gestionar correos, llamadas o mensajes y responde consultas básicas cuando el equipo está en juicio o fuera de horario. 
+
+      ✅ Un RAG, una especie de compañero digital que permite acceder al instante a información de expedientes, escritos o clientes sin tener que bucear entre carpetas o correos. 
+
+
+      La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más la dinámica del buffet.
+      
+
+      Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otros bufés y ver si algo de esto puede adaptarse a vuestro funcionamiento. 
+
+
+      Gracias por vuestro tiempo,
+
+  Inmobiliarias:
+    subject: "Posible colaboración con la inmobiliaria"
+    body: |
+      Buenos días,
+
+      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo viendo cómo en muchas inmobiliarias se pierde mucho tiempo en tareas que no aportan valor y acaban agotando al equipo.
+
+      Básicamente me dedico a desarrollar compañeros de trabajo para inmobiliarias, por ejemplo:
+
+      ✅ Un asistente que responde al instante a las consultas típicas de los portales (“¿está disponible?”, “¿se puede visitar hoy?”), sin que nadie tenga que parar su trabajo. 
+
+      ✅ Un sistema que organiza las visitas y el seguimiento de clientes automáticamente, para que todos en la oficina sepan quién ha visto qué inmueble y cuándo. 
+
+      ✅ Una ayuda que envía valoraciones y actualizaciones automáticas a los propietarios, para que se sientan atendidos sin tener que escribir cada mensaje a mano. 
+
+      La idea es aliviar la carga diaria sin cambiar la forma de trabajar ni añadir más presión al equipo.
+
+      Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras inmobiliarias y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+
+      Gracias por vuestro tiempo,
+
+  
+  Dentistas:
+    subject: "Posible colaboración con la clínica dental"
+    body: |
+      Buenos días,
+
+      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. He visto que en muchas clínicas dentales el mayor desgaste no está en tratar pacientes, sino en toda la gestión alrededor.
+
+      Básicamente me dedico a desarrollar compañeros de trabajo para clínicas, por ejemplo:
+
+      ✅ Un asistente que confirma y reprograma citas por WhatsApp, sin que la recepcionista tenga que estar todo el día llamando. 
+
+      ✅ Un apoyo que recuerda automáticamente a los pacientes los presupuestos pendientes y les da la opción de aceptar o pedir cita, sin que nadie tenga que hacer seguimiento manual. 
+
+      ✅ Un sistema que envía recordatorios de revisiones o limpiezas, para que los pacientes vuelvan a tiempo y no se pierdan entre llamadas. 
+
+      La idea es que la clínica gane tiempo y tranquilidad sin cambiar la forma de trabajar.
+
+      Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras clínicas dentales y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+
+      Gracias por vuestro tiempo,
+
+
+  Clínicas Estéticas:
+    subject: "Posible colaboración con la clínica estética"
+    body: |
+      Buenos días,
+
+      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas clínicas estéticas el equipo pasa el día entre WhatsApps, citas y seguimientos que nunca dan tregua.
+
+      Básicamente me dedico a desarrollar compañeros de trabajo para clínicas, por ejemplo:
+
+      ✅ Un asistente que confirma y reorganiza citas de forma automática, avisando a los pacientes y liberando al personal de estar pendiente del teléfono. 
+
+      ✅ Una ayuda que responde en redes o WhatsApp a las preguntas más comunes (precios, tratamientos, horarios), para no perder clientes por falta de respuesta rápida. 
+
+      ✅ Un recordatorio inteligente que hace seguimiento de pacientes tras los tratamientos y les recuerda próximas sesiones o promociones, sin depender de hojas ni alarmas. 
+
+      La idea es que todo funcione con más calma y sin sobrecargar a nadie del equipo.
+
+      Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras clínicas estéticas y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+
+      Gracias por vuestro tiempo,
+
+
+
+
 
 
