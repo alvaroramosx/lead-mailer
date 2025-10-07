@@ -126,6 +126,10 @@ Parámetros habituales:
 
 Requisito de Python: 3.10+ (se usa sintaxis de tipos `X | Y`).
 
+### Firma y logo
+- Si existen `config/signature.html` y `config/logo.png`, la firma se añade automáticamente al final del email en modo HTML y el logo se incrusta inline (CID `logo`).
+- Puedes personalizar `config/signature.html` con tu información y estilos. Si no quieres firma, elimina el archivo o envía en texto plano sin `--html`.
+
 ### Privacidad, seguridad y cumplimiento
 - No subas `data/*.csv` ni `.env` al repositorio.
 - Añade un `.gitignore` con, por ejemplo:

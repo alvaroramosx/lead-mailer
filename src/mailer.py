@@ -2,6 +2,7 @@ import smtplib
 import ssl
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email.mime.image import MIMEImage
 from typing import Optional
 
 
@@ -12,17 +13,40 @@ def build_mail(
     body: str,
     reply_to: Optional[str] = None,
     is_html: bool = False,
+    inline_logo_path: Optional[str] = None,
+    inline_logo_cid: str = "logo",
 ) -> MIMEMultipart:
-    """Construye un mensaje MIME con asunto y cuerpo (texto o HTML)."""
+    """Construye un mensaje MIME; soporta imagen inline vía CID cuando es HTML.
 
-    msg = MIMEMultipart()
+    Cuando `inline_logo_path` está definido y `is_html` es True, adjunta la imagen
+    y puede referenciarse en el HTML como `cid:logo` (o el CID indicado).
+    """
+
+    if is_html and inline_logo_path:
+        msg = MIMEMultipart("related")
+        alt = MIMEMultipart("alternative")
+        msg.attach(alt)
+        html_part = MIMEText(body, "html", _charset="utf-8")
+        alt.attach(html_part)
+        try:
+            with open(inline_logo_path, "rb") as f:
+                img = MIMEImage(f.read())
+            img.add_header("Content-ID", f"<{inline_logo_cid}>")
+            img.add_header("Content-Disposition", "inline")
+            msg.attach(img)
+        except Exception:
+            # Si falla el logo, continuamos con solo el HTML
+            pass
+    else:
+        msg = MIMEMultipart()
+        part = MIMEText(body, "html" if is_html else "plain", _charset="utf-8")
+        msg.attach(part)
+
     msg["From"] = from_addr
     msg["To"] = to_addr
     msg["Subject"] = subject
     if reply_to:
         msg["Reply-To"] = reply_to
-    part = MIMEText(body, "html" if is_html else "plain", _charset="utf-8")
-    msg.attach(part)
     return msg
 
 

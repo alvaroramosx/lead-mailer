@@ -55,3 +55,39 @@ def read_bool_env(raw: str | None, default: bool) -> bool:
     return raw.strip().lower() in ("1", "true", "yes", "y", "on")
 
 
+def _wrap_html_container(inner_html: str) -> str:
+    """Envuelve el contenido en un contenedor con estilos básicos seguros para email."""
+
+    return (
+        '<div style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #1a1a1a;">'
+        + inner_html
+        + "</div>"
+    )
+
+
+def text_to_html(text: str) -> str:
+    """Convierte texto plano a HTML simple conservando saltos de línea."""
+
+    escaped = (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+    html = escaped.replace("\n", "<br/>\n")
+    return _wrap_html_container(html)
+
+
+def compose_html(main_body: str, signature_html: str | None) -> str:
+    """Compone el HTML final del mensaje con estilos consistentes.
+
+    - Si `main_body` no parece HTML, se convierte desde texto plano.
+    - La firma se añade debajo con separación.
+    """
+
+    looks_like_html = "<" in main_body and ">" in main_body
+    main_html = main_body if looks_like_html else text_to_html(main_body)
+    if signature_html:
+        return main_html + '<div style="height:16px"></div>' + signature_html
+    return main_html
+
+

@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 from typing import Optional
 
-from utils import build_context, read_bool_env, safe_format
+from utils import build_context, read_bool_env, safe_format, compose_html
 from templates import load_templates, resolve_template_for_sector
 from mailer import build_mail, send_email
 
@@ -22,6 +22,13 @@ def run_pipeline(args) -> None:
     rate_limit = args.rate_limit or int(os.getenv("RATE_LIMIT_PER_MINUTE", "30"))
     only_sector = args.only_sector
     send_as_html = args.html
+    # Firma y logo automáticos si existen
+    signature_path = os.path.join("config", "signature.html")
+    inline_logo_path = os.path.join("config", "logo.png")
+    if not os.path.exists(signature_path):
+        signature_path = None
+    if not os.path.exists(inline_logo_path):
+        inline_logo_path = None
 
     smtp_host = os.getenv("SMTP_HOST", "")
     smtp_port = int(os.getenv("SMTP_PORT", "587"))
@@ -95,6 +102,17 @@ def run_pipeline(args) -> None:
             subject = safe_format(subject_tpl, context) or "(sin asunto)"
             body = safe_format(body_tpl, context)
 
+            # Componer HTML final con firma (si procede) y estilos básicos
+            signature_html = None
+            if send_as_html and signature_path:
+                try:
+                    with open(signature_path, "r", encoding="utf-8") as sf:
+                        signature_html = sf.read()
+                except Exception:
+                    signature_html = None
+            if send_as_html:
+                body = compose_html(body, signature_html)
+
             if dry_run:
                 print("=== PASO 4: PREVIEW ===")
                 print(f"To: {email}")
@@ -121,6 +139,7 @@ def run_pipeline(args) -> None:
                     body=body,
                     reply_to=reply_to,
                     is_html=send_as_html,
+                    inline_logo_path=inline_logo_path if send_as_html else None,
                 )
                 send_email(
                     host=smtp_host,
