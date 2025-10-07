@@ -22,46 +22,46 @@ default:
 
 sectors:
   Gestorías:
-  subject: "Posible colaboración con la gestoría"
-  body: |
-    Buenos días,
+    subject: "Posible colaboración con la gestoría"
+    body: |
+      Buenos días,
 
-    Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas gestorías el día se va entre correos de clientes, documentos del IVA y plazos que cambian de un momento a otro.
+      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas gestorías el día se va entre correos de clientes, documentos del IVA y plazos que cambian de un momento a otro.
 
-    Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en la gestoría, por ejemplo: 
+      Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en la gestoría, por ejemplo: 
 
-    ✅ Un sistema que prepara presupuestos o propuestas de servicio automáticamente con IA, teniendo en cuenta tipo de cliente, volumen de facturación o complejidad fiscal. 
+      ✅ Un sistema que prepara presupuestos o propuestas de servicio automáticamente con IA, teniendo en cuenta tipo de cliente, volumen de facturación o complejidad fiscal. 
 
-    ✅ Un compañero artificial inteligente que sepa gestionar correos o mensajes de clientes y responder dudas básicas (fechas de presentación, documentación pendiente, etc.) cuando el equipo está ocupado. 
+      ✅ Un compañero artificial inteligente que sepa gestionar correos o mensajes de clientes y responder dudas básicas (fechas de presentación, documentación pendiente, etc.) cuando el equipo está ocupado. 
 
-    ✅ Un RAG, una especie de compañero digital que permite acceder al instante a información de clientes, modelos, impuestos o documentación sin tener que buscar entre carpetas o correos. 
+      ✅ Un RAG, una especie de compañero digital que permite acceder al instante a información de clientes, modelos, impuestos o documentación sin tener que buscar entre carpetas o correos. 
 
-    La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más la dinámica de la gestoría.
-    
-    Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras gestorías y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+      La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más la dinámica de la gestoría.
+      
+      Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras gestorías y ver si algo de esto puede adaptarse a vuestro funcionamiento.
 
-    Gracias por vuestro tiempo,
+      Gracias por vuestro tiempo,
 
   Constructoras:
-  subject: "Posible colaboración con la constructora"
-  body: |
-    Buenos días,
+    subject: "Posible colaboración con la constructora"
+    body: |
+      Buenos días,
 
-    Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas constructoras el día se va entre llamadas de obra, presupuestos, proveedores y planos que nunca están donde uno espera.
+      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas constructoras el día se va entre llamadas de obra, presupuestos, proveedores y planos que nunca están donde uno espera.
 
-    Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en la empresa, por ejemplo:
+      Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en la empresa, por ejemplo:
 
-    ✅ Un sistema que genera presupuestos de obra automáticamente con IA, teniendo en cuenta materiales, tiempos de ejecución, desplazamientos o mano de obra. 
+      ✅ Un sistema que genera presupuestos de obra automáticamente con IA, teniendo en cuenta materiales, tiempos de ejecución, desplazamientos o mano de obra. 
 
-    ✅ Un compañero artificial inteligente que gestiona correos y mensajes con clientes o proveedores, manteniendo actualizada la información de cada proyecto. 
+      ✅ Un compañero artificial inteligente que gestiona correos y mensajes con clientes o proveedores, manteniendo actualizada la información de cada proyecto. 
 
-    ✅ Un RAG, una especie de compañero digital que permite acceder al instante a planos, certificaciones o fichas de materiales sin perder tiempo buscando entre documentos. 
+      ✅ Un RAG, una especie de compañero digital que permite acceder al instante a planos, certificaciones o fichas de materiales sin perder tiempo buscando entre documentos. 
 
-    La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más la dinámica de la obra.
-    
-    Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras constructoras y ver si algo de esto puede adaptarse a vuestro funcionamiento.
+      La idea es ayudar a que todo fluya mejor sin meter presión al personal ni sobrecargar más la dinámica de la obra.
+      
+      Si dirección lo considera interesante, estaría encantado de enseñar algunos ejemplos reales de otras constructoras y ver si algo de esto puede adaptarse a vuestro funcionamiento.
 
-    Gracias por vuestro tiempo,
+      Gracias por vuestro tiempo,
 
   Hoteles:
     subject: "Posible colaboración con el hotel"
