@@ -1,0 +1,50 @@
+# Python bytecode y metadatos
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env.bak/
+
+# Archivos de entorno/credenciales (NO subir)
+.env
+.env.*
+*.env
+env
+secrets.*
+*.key
+*.pem
+
+# Datos y logs locales
+data/*.csv
+data/**/*.csv
+logs/
+logs/**
+*.log
+
+# Cachés y cobertura
+.pytest_cache/
+.coverage
+.cache/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Build/Distribución (por si se genera)
+build/
+dist/
+
+

@@ -1,0 +1,41 @@
+default:
+  subject: "Consulta para {Nombre}"
+  body: |
+    Hola {Nombre},
+
+    He estado revisando {Web} y me gustaría compartir una breve propuesta
+    para ayudar a {Nombre} a captar más clientes en el sector {Sector}.
+
+    ¿Te parece si coordinamos una llamada esta semana?
+
+    Un saludo,
+    Equipo Lead Mailer
+
+sectors:
+  Restaurantes:
+    subject: "Mejora de visibilidad online para {Nombre}"
+    body: |
+      Hola {Nombre},
+
+      Hemos ayudado a restaurantes de {Ubicacion} a incrementar reservas
+      con optimización de ficha y campañas locales.
+
+      ¿Te parece si te enseño algunos resultados y vemos si encaja para {Nombre}?
+
+      Un saludo,
+      Equipo Lead Mailer
+
+  Tecnologia:
+    subject: "Ideas para acelerar leads en {Nombre}"
+    body: |
+      Hola {Nombre},
+
+      Tenemos experiencia en funnels B2B para empresas de tecnología.
+      Podríamos revisar {Web} y proponerte quick-wins.
+
+      Si te interesa, coordinemos una breve llamada.
+
+      Gracias,
+      Equipo Lead Mailer
+
+
