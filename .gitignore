@@ -33,6 +33,7 @@ logs/**
 config/signature.html
 config/logo.png
 config/logo.svg
+config/templates.yaml
 
 # Cachés y cobertura
 .pytest_cache/

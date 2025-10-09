@@ -3,7 +3,7 @@ default:
   body: |
     Buenos días,
 
-    Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo viendo cómo en muchos negocios el día se va entre llamadas, correos y tareas que roban más tiempo del que deberían.
+    Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. Llevo tiempo viendo cómo en muchos negocios el día se va entre llamadas, correos y tareas que roban más tiempo del que deberían.
 
     Básicamente me dedico a desarrollar compañeros de trabajo digitales que ayudan a que todo fluya mejor, por ejemplo:
 
@@ -21,12 +21,12 @@ default:
 
 
 sectors:
-  Gestorías:
+  Gestorias:
     subject: "Posible colaboración con la gestoría"
     body: |
       Buenos días,
 
-      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas gestorías el día se va entre correos de clientes, documentos del IVA y plazos que cambian de un momento a otro.
+      Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas gestorías el día se va entre correos de clientes, documentos del IVA y plazos que cambian de un momento a otro.
 
       Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en la gestoría, por ejemplo: 
 
@@ -47,7 +47,7 @@ sectors:
     body: |
       Buenos días,
 
-      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas constructoras el día se va entre llamadas de obra, presupuestos, proveedores y planos que nunca están donde uno espera.
+      Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas constructoras el día se va entre llamadas de obra, presupuestos, proveedores y planos que nunca están donde uno espera.
 
       Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en la empresa, por ejemplo:
 
@@ -68,7 +68,7 @@ sectors:
     body: |
       Buenos días,
 
-      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Hoy hablé con una compañera vuestra y me indicó que podía enviaros este correo para que lo revisaras.
+      Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. Hoy hablé con una compañera vuestra y me indicó que podía enviaros este correo para que lo revisaras.
 
       Básicamente me dedico a desarrollar compañeros de trabajo para vosotros tanto en el hotel como en el restaurante, por ejemplo:
 
@@ -90,7 +90,7 @@ sectors:
     body: |
       Buenos días,
 
-      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Hoy hablé con una compañera vuestra y me indicó que podía enviaros este correo para que lo revisaras.
+      Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. Hoy hablé con una compañera vuestra y me indicó que podía enviaros este correo para que lo revisaras.
 
       Básicamente me dedico a desarrollar compañeros de trabajo para vosotros tanto en el hotel como en el restaurante, por ejemplo:
 
@@ -111,7 +111,7 @@ sectors:
     body: |
       Buenos días,
 
-      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchos despachos el día se va entre llamadas, correos y documentos que cuesta encontrar justo cuando más se necesitan.
+      Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchos despachos el día se va entre llamadas, correos y documentos que cuesta encontrar justo cuando más se necesitan.
 
       Básicamente me dedico a desarrollar compañeros de trabajo para vosotros en el despacho, por ejemplo: 
 
@@ -135,7 +135,7 @@ sectors:
     body: |
       Buenos días,
 
-      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo viendo cómo en muchas inmobiliarias se pierde mucho tiempo en tareas que no aportan valor y acaban agotando al equipo.
+      Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. Llevo tiempo viendo cómo en muchas inmobiliarias se pierde mucho tiempo en tareas que no aportan valor y acaban agotando al equipo.
 
       Básicamente me dedico a desarrollar compañeros de trabajo para inmobiliarias, por ejemplo:
 
@@ -157,7 +157,7 @@ sectors:
     body: |
       Buenos días,
 
-      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. He visto que en muchas clínicas dentales el mayor desgaste no está en tratar pacientes, sino en toda la gestión alrededor.
+      Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. He visto que en muchas clínicas dentales el mayor desgaste no está en tratar pacientes, sino en toda la gestión alrededor.
 
       Básicamente me dedico a desarrollar compañeros de trabajo para clínicas, por ejemplo:
 
@@ -174,12 +174,12 @@ sectors:
       Gracias por vuestro tiempo,
 
 
-  Clínicas Estéticas:
+  ClínicasEstéticas:
     subject: "Posible colaboración con la clínica estética"
     body: |
       Buenos días,
 
-      Soy Álvaro, de {Ubicacion}, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas clínicas estéticas el equipo pasa el día entre WhatsApps, citas y seguimientos que nunca dan tregua.
+      Soy Álvaro, de Donostia, e Ingeniero Informático de profesión. Llevo tiempo observando cómo en muchas clínicas estéticas el equipo pasa el día entre WhatsApps, citas y seguimientos que nunca dan tregua.
 
       Básicamente me dedico a desarrollar compañeros de trabajo para clínicas, por ejemplo:
 
